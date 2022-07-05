@@ -23,7 +23,7 @@ resultdoc <- function(filename,design,model,data,rep, factA,factB,factC){
   q=factB
   s=factC
   m= model
-  f = as.string(filename)
+  f = filename
   sink(f)
   print('Congratulation !!! You did it.')
   print('This package is created by BIBEK BUDHATHOKI with the intend to help biological researchers(specially who conducts field experiment/lab experiment/trials). This package aims to help in analysis in easiest way possible till date. ')
