@@ -1,0 +1,13 @@
+Package: RDGMATRIXBIODATA
+Type: Analysis Package Based on the do ebio research package
+Title: Data analysis for the biological research
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: For simple use always install "Doebioresearch" package using install.package('doebioresearch') after installing this package, Do analysis by just putting data in the recommemnded format.Code is as follos analysis(design, model, data, replication, factA, factB, factC), for design use ,  rcbd -->  for randomized complete block  design , rcbd2 --> for 2 factorial  rcbd , rcbd3 --> for 3 factorial rcbd, crd -- > for complete randmized design crd2 --> for 2 factorial crd, crd3 --> for 3 factorial crd, lsd --> for latin square design ,split -- > for split plot design, strip --> for strip plot design , for model  ,0 for no test ,1 for LSD test 2 for Duncan test,3 for HSD test for Data put Dataframe name ( as seen in global environment)for replication , Block for split plot, if block is not avalable put 0, for Factor A ,Put Treatment name incase of LSD , RCBD and CRD , factor B,Put Second factor Name otherwise put 0 if its absent .factor C,Put third factor Name otherwise put 0 if its absent, 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    RDGMATRIXBIODATA
