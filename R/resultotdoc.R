@@ -27,7 +27,7 @@ resultdoc <- function(filename,design,model,data,rep, factA,factB,factC){
   sink(f)
   print('Congratulation !!! You did it.')
   print('This package is created by BIBEK BUDHATHOKI with the intend to help biological researchers(specially who conducts field experiment/lab experiment/trials). This package aims to help in analysis in easiest way possible till date. ')
-  print('For any issue related to this package or for neg/positive feedback feel free to mail me BibeloBibek.budhathoki3@gmail.com') 
+  print('For any issue related to this package or for neg/positive feedback feel free to mail me Bibek.budhathoki3@gmail.com') 
   for (x in abcd){
     print('####################### This is analysis of of the variable ---> ')
     print(x)
